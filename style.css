@@ -1,0 +1,19 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    transition: transform 0.6s;
+}
+
+.liner {
+    transition-timing-function: linear;
+}
+
+.ease {
+    transition-timing-function: ease-in-out;
+}
+
+.box:hover {
+    transform: translateX(100px);
+}
